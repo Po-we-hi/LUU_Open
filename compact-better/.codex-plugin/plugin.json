@@ -1,0 +1,35 @@
+{
+  "name": "compact-better",
+  "version": "0.1.0",
+  "description": "Manual Codex pre-compaction review skill for a file-backed compact prompt.",
+  "author": {
+    "name": "LUU",
+    "url": "https://github.com/Po-we-hi"
+  },
+  "homepage": "https://github.com/Po-we-hi/LUU_Open/tree/main/compact-better",
+  "repository": "https://github.com/Po-we-hi/LUU_Open",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "compaction",
+    "compact-prompt",
+    "context"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Compact Better",
+    "shortDescription": "Review and tune a manual /compact before running it.",
+    "longDescription": "Compact Better prepares a reviewed, low-pollution prompt for one manual Codex /compact run, writes it temporarily to a file-backed compact prompt, and restores the clean baseline afterward.",
+    "developerName": "LUU",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use $compact-better before I run /compact."
+    ]
+  }
+}
