@@ -1,0 +1,7 @@
+interface:
+  display_name: "Move Better"
+  short_description: "Review context and prepare a clean task handoff"
+  default_prompt: "Use $move-better to review this task context and prepare a clean handoff for a new independent task."
+
+policy:
+  allow_implicit_invocation: false

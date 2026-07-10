@@ -1,7 +1,0 @@
-interface:
-  display_name: "Compact Better"
-  short_description: "Pre-/compact context simulation"
-  default_prompt: "Use $compact-better before I run /compact."
-
-policy:
-  allow_implicit_invocation: false

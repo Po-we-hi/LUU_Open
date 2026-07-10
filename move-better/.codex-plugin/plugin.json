@@ -1,0 +1,35 @@
+{
+  "name": "move-better",
+  "version": "0.1.0",
+  "description": "Review task context and prepare a clean handoff for a new independent Codex task.",
+  "author": {
+    "name": "LUU",
+    "url": "https://github.com/Po-we-hi"
+  },
+  "homepage": "https://github.com/Po-we-hi/LUU_Open/tree/main/move-better",
+  "repository": "https://github.com/Po-we-hi/LUU_Open",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "context",
+    "handoff",
+    "task-migration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Move Better",
+    "shortDescription": "Review context and prepare a clean task handoff.",
+    "longDescription": "Review source-task context, decide what to retain or omit, and create a clean handoff for a new independent Codex task.",
+    "developerName": "LUU",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use $move-better to review this task and prepare a clean handoff for a new independent task."
+    ]
+  }
+}
